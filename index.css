@@ -21,17 +21,20 @@ body {
 }
 
 .header img {
-    width: 50%; /* Set the width of the images to 50% of their container */
+    max-width: 80%; /* Set the maximum width of the images */
+    height: auto; /* Maintain aspect ratio */
     display: block; /* Make the images block-level elements to center them */
     margin: 0 auto; /* Center the images horizontally */
 }
 
 .header1 {
-    transform: translateX(-50%) translateY(-50%); /* Center horizontally and vertically */
+    left: 0;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
 }
 
 .header2 {
-    transform: translateX(50%) translateY(-50%); /* Center horizontally and vertically */
+    right: 0;
+    transform: translate(50%, -50%); /* Center horizontally and vertically */
 }
 
 .line {
