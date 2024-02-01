@@ -21,7 +21,7 @@ body {
 }
 
 .header img {
-    width: 80%; /* Set the width of the images to 80% of their container */
+    width: 50%; /* Set the width of the images to 50% of their container */
     display: block; /* Make the images block-level elements to center them */
     margin: 0 auto; /* Center the images horizontally */
 }
