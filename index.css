@@ -1,6 +1,7 @@
-.body {
+body {
     margin: 0;
     font-family: Arial, sans-serif;
+    border: 5px solid black; /* Add a black border to the body */
 }
 
 .container {
