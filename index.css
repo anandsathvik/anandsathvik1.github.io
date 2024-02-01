@@ -1,7 +1,6 @@
-body {
+.body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, turquoise 50%, lightcoral 50%);
 }
 
 .container {
@@ -13,13 +12,13 @@ body {
 
 .header {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 50px; /* Adjust to move headers down from top */
     padding: 20px;
     font-size: 24px;
     width: 50%;
     box-sizing: border-box;
     color: black; /* Set color of headers to black */
+    text-align: center; /* Center align headers */
     z-index: 2; /* Ensure headers are above the line */
 }
 
@@ -35,9 +34,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; 
+    width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, turquoise 50%, lightcoral 50%); /* Apply gradient */
+    background: linear-gradient(110deg, turquoise 50%, lightcoral 50%); /* Adjust gradient angle */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Clip to create the slanted line */
     z-index: 1; /* Ensure line is below headers */
 }
