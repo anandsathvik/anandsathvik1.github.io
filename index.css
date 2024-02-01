@@ -14,12 +14,7 @@ body {
 .header {
     position: absolute;
     top: 50px; /* Adjust to move headers down from top */
-    padding: 20px;
-    font-size: 24px;
     width: 50%;
-    box-sizing: border-box;
-    color: black; /* Set color of headers to black */
-    text-align: center; /* Center align headers */
     z-index: 2; /* Ensure headers are above the line */
 }
 
