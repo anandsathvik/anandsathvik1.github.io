@@ -13,17 +13,19 @@ body {
 
 .header {
     position: absolute;
-    top: 50px; /* Adjust to move headers down from top */
+    top: 30px; /* Adjust to move headers down slightly from the top */
     width: 50%;
+    left: 50%; /* Move to center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
     z-index: 2; /* Ensure headers are above the line */
 }
 
 .header1 {
-    left: 0;
+    transform: translateX(-50%) translateY(-50%); /* Center horizontally and vertically */
 }
 
 .header2 {
-    right: 0;
+    transform: translateX(50%) translateY(-50%); /* Center horizontally and vertically */
 }
 
 .line {
