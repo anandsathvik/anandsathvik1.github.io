@@ -1,13 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, turquoise 50%, lightcoral 50%);
+    background: linear-gradient(135deg, turquoise 50%, lightcoral 50%);
 }
 
 .container {
     position: relative;
     width: 100%;
     height: 100vh;
+    overflow: hidden; /* Ensure content doesn't overflow outside the container */
 }
 
 .header {
@@ -22,10 +23,12 @@ body {
 
 .header1 {
     left: 0;
+    background-color: turquoise; /* Set background color for header 1 */
 }
 
 .header2 {
     right: 0;
+    background-color: lightcoral; /* Set background color for header 2 */
 }
 
 .line {
@@ -36,4 +39,5 @@ body {
     height: 2px;
     transform: translate(-50%, -50%) rotate(45deg); /* Rotate the line */
     background-color: #f1f1f1;
+    z-index: 1; /* Ensure line is above headers */
 }
