@@ -21,10 +21,12 @@ body {
 
 .header1 {
     left: 0;
+    background-color: turquoise; /* Set background color for header 1 */
 }
 
 .header2 {
     right: 0;
+    background-color: lightcoral; /* Set background color for header 2 */
 }
 
 .line {
