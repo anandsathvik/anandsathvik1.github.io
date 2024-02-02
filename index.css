@@ -13,7 +13,7 @@ body {
 
 .image {
     position: absolute;
-    top: 50%;
+    top: 10%; /* Adjust to move images higher from the top */
     transform: translateY(-50%);
     z-index: 2; /* Ensure images are above the line */
 }
