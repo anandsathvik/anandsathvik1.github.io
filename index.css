@@ -47,6 +47,7 @@
 .paragraph-box p {
     font-size: 18px;
     margin-bottom: 20px;
+    width: 350%;
 }
 
 .button-link {
