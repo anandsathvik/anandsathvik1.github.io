@@ -44,6 +44,8 @@ body {
 .text-box2 {
     bottom: -300px; /* Adjust the distance from the bottom as needed */
 	left: 50%;
+	margin-bottom: 5px; /* Add space between the title and sub-information */
+
 }
 
 .text-box h2 {
