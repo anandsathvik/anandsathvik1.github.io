@@ -20,13 +20,13 @@ body {
 }
 
 .image1 {
-    left: 20%; /* Adjust the left position to center the image on the left side */
+    left: 35%; /* Adjust the left position to center the image on the left side */
     width: 15%; /* Set the width of the Screenshot image to make it smaller */
     transform: translateX(-50%); /* Center horizontally */
 }
 
 .image2 {
-    right: 20%; /* Adjust the right position to center the image on the right side */
+    right: 35%; /* Adjust the right position to center the image on the right side */
     transform: translateX(50%); /* Center horizontally */
 }
 
