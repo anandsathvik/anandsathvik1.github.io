@@ -11,29 +11,22 @@ body {
     overflow: hidden; /* Ensure content doesn't overflow outside the container */
 }
 
-.header {
+.image {
     position: absolute;
-    top: 30px; /* Adjust to move headers down slightly from the top */
-    width: 50%;
-    left: 50%; /* Move to center horizontally */
-    transform: translateX(-50%); /* Center horizontally */
-    z-index: 2; /* Ensure headers are above the line */
-}
-
-.header img {
-    width: 20%; /* Set the width of the images to 20% of their container */
+    top: 50%;
+    width: 30%; /* Set the width of the images */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Make the images block-level elements to center them */
-    margin: 0 auto; /* Center the images horizontally */
+    transform: translateY(-50%); /* Center vertically */
+    z-index: 2; /* Ensure images are above the line */
 }
 
-.header1 {
-    left: 0;
+.image1 {
+    left: 50%;
     transform: translate(-50%, -50%); /* Center horizontally and vertically */
 }
 
-.header2 {
-    right: 0;
+.image2 {
+    right: 50%;
     transform: translate(50%, -50%); /* Center horizontally and vertically */
 }
 
@@ -45,5 +38,5 @@ body {
     height: 100%;
     background: linear-gradient(110deg, turquoise 50%, lightcoral 50%); /* Adjust gradient angle */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Clip to create the slanted line */
-    z-index: 1; /* Ensure line is below headers */
+    z-index: 1; /* Ensure line is below images */
 }
