@@ -13,18 +13,51 @@ body {
 
 .image {
     position: absolute;
-    top: 25%;
+    top: 15%;
     transform: translateY(-50%);
     z-index: 2; /* Ensure images are above the line */
 }
 
 .image1 {
     left: 10%; /* Adjust the left position to center the image on the left side */
-    width: 10%; /* Set the width of the Screenshot image to make it smaller */
+    width: 30%; /* Set the width of the Screenshot image to make it smaller */
 }
 
 .image2 {
-    right: 10%; /* Adjust the right position to center the image on the right side */
+    right: 20%; /* Adjust the right position to center the image on the right side */
+}
+
+.text-box {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.text-box1 {
+    bottom: -300px;
+}
+
+.text-box2 {
+    bottom: -300px; /* Adjust position of text box 2 */
+}
+
+.text-box h2 {
+    font-size: 26px; /* Adjust title font size */
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 18px; /* Adjust sub-information font size */
+    margin-bottom: 10px;
+}
+
+.text-box button {
+    font-size: 14px; /* Adjust button font size */
+    border: none;
+    padding: 13px 20px;
+    cursor: pointer;
 }
 
 .line {
