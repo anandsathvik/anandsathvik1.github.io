@@ -20,14 +20,37 @@ body {
 }
 
 .image1 {
-    left: 35%; /* Adjust the left position to center the image on the left side */
-    width: 15%; /* Set the width of the Screenshot image to make it smaller */
+    left: 20%; /* Adjust the left position to center the image on the left side */
     transform: translateX(-50%); /* Center horizontally */
 }
 
 .image2 {
-    right: 35%; /* Adjust the right position to center the image on the right side */
+    right: 20%; /* Adjust the right position to center the image on the right side */
     transform: translateX(50%); /* Center horizontally */
+}
+
+.text-box {
+    position: absolute;
+    width: 80%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    z-index: 1; /* Ensure text boxes are below images */
+}
+
+.text-box1 {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%; /* Adjust the top position to place the text box below the image */
+}
+
+.text-box2 {
+    right: 50%;
+    transform: translateX(50%);
+    top: 30%; /* Adjust the top position to place the text box below the image */
+}
+
+.text-box h2 {
+    margin-bottom: 10px;
 }
 
 .line {
@@ -38,5 +61,5 @@ body {
     height: 100%;
     background: linear-gradient(110deg, turquoise 50%, lightcoral 50%); /* Adjust gradient angle */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Clip to create the slanted line */
-    z-index: 1; /* Ensure line is below images */
+    z-index: 3; /* Ensure line is above text boxes and images */
 }
