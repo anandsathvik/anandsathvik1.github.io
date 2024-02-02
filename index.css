@@ -15,12 +15,12 @@ body {
     position: absolute;
     top: 15%;
     transform: translateY(-50%);
-    z-index: 2; /* Ensure images are above the line */
+    z-index: 3; /* Ensure images are on top of other elements */
 }
 
 .image1 {
-    left: 25%; /* Adjust the left position to center the image on the left side */
-    width: 5%; /* Set the width of the Screenshot image to make it smaller */
+    left: 15%; /* Adjust the left position to center the image on the left side */
+    width: 10%; /* Set the width of the Screenshot image to make it smaller */
 }
 
 .image2 {
@@ -29,36 +29,43 @@ body {
 
 .text-box {
     position: absolute;
-    bottom: 20px;
-    left: -100%;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: -50%; /* Center horizontally */
     transform: translateX(-50%);
-    text-align: center;
+    text-align: center; /* Center align text */
+    z-index: 2; /* Ensure text boxes are below images */
 }
 
 .text-box1 {
-    bottom: -300px;
+    bottom: -300px; /* Adjust the distance from the bottom as needed */
+	left: 50%;
 }
 
 .text-box2 {
-    bottom: -300px; /* Adjust position of text box 2 */
+    bottom: -300px; /* Adjust the distance from the bottom as needed */
 }
 
 .text-box h2 {
-    font-size: 26px; /* Adjust title font size */
-    margin-bottom: 10px;
+    font-size: 24px; /* Adjust title font size */
+    margin-bottom: 75px; /* Add space between the title and sub-information */
 }
 
 .text-box p {
     font-size: 18px; /* Adjust sub-information font size */
-    margin-bottom: 10px;
+    margin-bottom: -100px; /* Add more space between sub-information and "Visit Us" button */
 }
 
 .text-box button {
     font-size: 14px; /* Adjust button font size */
     border: none;
-    padding: 13px 20px;
+    padding: 10px 20px;
     cursor: pointer;
+    position: relative; /* Add relative positioning to make left property work */
+    left: 50%; /* Adjust the left position */
+    bottom: -300px; /* Adjust the bottom position */
+    transform: translateX(-50%); /* Center the button horizontally */
 }
+
 
 .line {
     position: absolute;
@@ -68,5 +75,5 @@ body {
     height: 100%;
     background: linear-gradient(110deg, turquoise 50%, lightcoral 50%); /* Adjust gradient angle */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Clip to create the slanted line */
-    z-index: 1; /* Ensure line is below images */
+    z-index: 1; /* Ensure line is below images and text boxes */
 }
