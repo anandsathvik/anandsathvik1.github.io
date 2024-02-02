@@ -19,18 +19,18 @@ body {
 }
 
 .image1 {
-    left: 10%; /* Adjust the left position to center the image on the left side */
-    width: 30%; /* Set the width of the Screenshot image to make it smaller */
+    left: 25%; /* Adjust the left position to center the image on the left side */
+    width: 5%; /* Set the width of the Screenshot image to make it smaller */
 }
 
 .image2 {
-    right: 20%; /* Adjust the right position to center the image on the right side */
+    right: 15%; /* Adjust the right position to center the image on the right side */
 }
 
 .text-box {
     position: absolute;
     bottom: 20px;
-    left: 50%;
+    left: -100%;
     transform: translateX(-50%);
     text-align: center;
 }
