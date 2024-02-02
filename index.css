@@ -13,21 +13,18 @@ body {
 
 .image {
     position: absolute;
-    top: 50%;
-    width: 30%; /* Set the width of the images */
+    top: 30px; /* Adjust to move images down slightly from the top */
+    width: 20%; /* Set the width of the images */
     height: auto; /* Maintain aspect ratio */
-    transform: translateY(-50%); /* Center vertically */
     z-index: 2; /* Ensure images are above the line */
 }
 
 .image1 {
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+    left: 0;
 }
 
 .image2 {
-    right: 50%;
-    transform: translate(50%, -50%); /* Center horizontally and vertically */
+    right: 0;
 }
 
 .line {
