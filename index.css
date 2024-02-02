@@ -13,18 +13,18 @@ body {
 
 .image {
     position: absolute;
-    top: 30px; /* Adjust to move images down slightly from the top */
-    width: 20%; /* Set the width of the images */
-    height: auto; /* Maintain aspect ratio */
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 2; /* Ensure images are above the line */
 }
 
 .image1 {
-    left: 0;
+    left: 10%; /* Adjust the left position to center the image on the left side */
+    width: 15%; /* Set the width of the Screenshot image to make it smaller */
 }
 
 .image2 {
-    right: 0;
+    right: 10%; /* Adjust the right position to center the image on the right side */
 }
 
 .line {
