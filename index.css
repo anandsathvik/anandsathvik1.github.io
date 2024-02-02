@@ -14,17 +14,19 @@ body {
 .image {
     position: absolute;
     top: 10%; /* Adjust to move images higher from the top */
-    transform: translateX(-50%);
+    width: 15%; /* Set the width of the images */
+    height: auto; /* Maintain aspect ratio */
     z-index: 2; /* Ensure images are above the line */
 }
 
 .image1 {
     left: 50%; /* Adjust the left position to center the image on the left side */
-    width: 15%; /* Set the width of the Screenshot image to make it smaller */
+    transform: translateX(-50%); /* Center horizontally */
 }
 
 .image2 {
     right: 50%; /* Adjust the right position to center the image on the right side */
+    transform: translateX(50%); /* Center horizontally */
 }
 
 .line {
