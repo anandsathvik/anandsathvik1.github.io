@@ -39,24 +39,27 @@ body {
 .text-box1 {
     bottom: -300px; /* Adjust the distance from the bottom as needed */
 	left: 50%;
+	width: 375%;
+
 }
 
 .text-box2 {
     bottom: -300px; /* Adjust the distance from the bottom as needed */
-	left: 50%;
+	left: -51%;
 	margin-bottom: 5px; /* Add space between the title and sub-information */
+	    width: 450%;
+
 
 }
 
 .text-box h2 {
     font-size: 24px; /* Adjust title font size */
-    margin-bottom: 75px; /* Add space between the title and sub-information */
+    margin-bottom: 40px; /* Add space between the title and sub-information */
 }
 
 .text-box p {
     font-size: 18px; /* Adjust sub-information font size */
     margin-bottom: -100px; /* Add more space between sub-information and "Visit Us" button */
-    width: 350%;
 }
 
 .text-box button {
