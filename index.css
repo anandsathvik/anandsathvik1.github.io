@@ -68,7 +68,7 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     position: relative; /* Add relative positioning to make left property work */
-    left: 50%; /* Adjust the left position */
+    left: 0%; /* Adjust the left position */
     bottom: -300px; /* Adjust the bottom position */
     transform: translateX(-50%); /* Center the button horizontally */
 }
